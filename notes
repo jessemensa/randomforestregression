@@ -1,0 +1,15 @@
+Random Forests Algorithm which is a version of ensemble learning 
+el => take the same Algorithm multiple times and put them together to make something more powerful. 
+
+
+Steps 1: Pick a random K datapoint from the training set. 
+
+Step 2: Build a decision tree associated w that k data points. 
+
+Step 3: Choose the number of Ntree of trees u want to build and repeat steps 1 and 2 
+
+Step 4: for a new data pt, make sure one of your ntree trees predict the value of Y 
+for the datapt in question and assign the new data pt the average across all of the predicted y value. 
+
+instead of getting one prediction, get like 500 predictions for the value of y and take the average 
+across those predictions and that improves the accuracy of the prediction. 
